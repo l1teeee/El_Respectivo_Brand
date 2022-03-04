@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+/*Edicion del header de la pagin*/
+header{
+    margin-bottom: 50px;
+}
+
+header h1{
+    font-family: "DM Sans", sans-serif;
+
+    font-size: 55px;
+    float: right;
+    margin-top: 70px;
+    margin-right:250px;
+}
+
+header img{
+    position: relative;
+    left: 80px;
+    width: 150px;
+    padding: 5px;
+}
+
+/*EDICION DE LAS IMAGENES*/
+
+ .cafe1{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 80px;
+    left: 190px;
+    bottom: 50px;
+    border: solid 7px white;
+    border-radius: 8px;
+    
+}
+.cafe2{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 400px;
+    right: 125px;
+    border: solid 7px white;
+    border-radius: 8px;
+    
+}
+/*Posionamiento del div del texto*/
+
+.texto_historia{
+    width: 50%;
+    position: relative;
+    left: 650px;
+    bottom: 150px;
+}
+/*Edicion del texto*/
+.texto_historia p{
+    font-family: "DM Sans", sans-serif;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.parrafo1::first-letter{
+
+    font-size: 50px;
+    color: #8E1600;
+}
+
+.texto_historia h3{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #8E1600;
+    text-align: center;
+}
+
+.sidebar{
+    width: 80px;
+    height: 140vh;
+    background-color: #8E1600;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
